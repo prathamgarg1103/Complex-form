@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <title>Complex Form</title>
+    <label for="ok">Complex Form</label>
+    <fieldset>
+        <legend>Personal Information</legend>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name">
+         <label for="email">Email</label>
+        <input type="text" name="email" id="email">
+         <label for="Phone">Phone</label>
+        <input type="number" name="Phone" id="Phone">
+        <br>
+         <label for="dob">Date Of Birth</label>
+        <input type="date" name="dob" id="dob">
+         <label for="gender">Gender</label>
+        <input type="radio" name="male" id="male">
+        <label for="male">Male</label>
+         <input type="radio" name="female" id="female">
+        <label for="female">Female</label>
+        <label for="country">Country</label>
+        <select name="country" id="country">
+            <option value="1">United States</option>
+            <option value="2">Chicago</option>
+            <option value="3">Carabian</option>
+        </select>
+    </fieldset>
+
+
+    <fieldset>
+        <legend>
+            <label for="add">Address Street</label>
+            <input type="text" name="add" id="add">
+            <label for="city">City</label>
+            <input type="text" name="city" id="city">
+            <label for="state">State</label>
+            <input type="text" name="state" id="state">
+            <br>
+            <label for="zip">Zip Code</label>
+            <input type="text" name="zip" id="zip">
+        </legend>
+    </fieldset>
+    <fieldset>
+        <legend>Other Information</legend>
+        <label for="com">Comments:</label>
+        <br>
+        <textarea name="com" id="com" cols="30" rows="10"></textarea>
+        <label for="agree">I Agree to the terms of service</label>
+        <input type="checkbox" name="agree" id="agree">
+    </fieldset>
+    <button>Submit</button>
+</body>
+</html>
